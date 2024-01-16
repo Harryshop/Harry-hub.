@@ -1,0 +1,201 @@
+local DarkraiX = loadstring(game:HttpGet("https://raw.githubusercontent.com/zeroscgaming/zeroscgaming/main/RDE.lib/Dark%20UI", true))()
+local Library = DarkraiX:Window("HARRY HUB","การศึกษา","LeftControl",Enum.KeyCode.LeftControl);
+local GG = Library:AddTab("เมนูเสกของ","")
+local CR = Library:AddTab("ดิสคอส","")
+local AR = Library:AddTab("เสกพลัง","")
+GG:AddSeperator("Verse Piece ")
+CR:AddSeperator("ลิ้งดิส HARRY HUB")
+ 
+GG:AddButton("Give  Item(Atomic Orb)🖱️",function()
+local args = {
+    [1] = "Change",
+    [2] = "Atomic Orb",
+    [3] = "Inv"
+}
+ 
+game:GetService("ReplicatedStorage").Inventory:FireServer(unpack(args))
+end)
+ 
+GG:AddButton("Give  Item(Gokumonkyo)🖱️",function()
+local args = {
+    [1] = "Change",
+    [2] = "Gokumonkyo",
+    [3] = "Inv"
+}
+ 
+game:GetService("ReplicatedStorage").Inventory:FireServer(unpack(args))
+end)
+ 
+GG:AddButton("Give  Item(Six Eyes)🖱️",function()
+local args = {
+    [1] = "Change",
+    [2] = "Six Eyes",
+    [3] = "Inv"
+}
+ 
+game:GetService("ReplicatedStorage").Inventory:FireServer(unpack(args))
+end)
+ 
+GG:AddButton("Give  Item(Demon Orb)🖱️",function()
+local args = {
+    [1] = "Change",
+    [2] = "Demon Orb",
+    [3] = "Inv"
+}
+ 
+game:GetService("ReplicatedStorage").Inventory:FireServer(unpack(args))
+end)
+ 
+GG:AddButton("Give  Item(Demon Sword)🖱️",function()
+local args = {
+    [1] = "Change",
+    [2] = "Demon Sword",
+    [3] = "Inv"
+}
+ 
+game:GetService("ReplicatedStorage").Inventory:FireServer(unpack(args))
+end)
+ 
+GG:AddButton("Give  Item(Demon Book)🖱️",function()
+local args = {
+    [1] = "Change",
+    [2] = "Demon Book",
+    [3] = "Inv"
+}
+ 
+game:GetService("ReplicatedStorage").Inventory:FireServer(unpack(args))
+end)
+ 
+GG:AddButton("Give  Item(Sigma Cup)🖱️",function()
+local args = {
+    [1] = "Change",
+    [2] = "Sigma Cup",
+    [3] = "Inv"
+}
+ 
+game:GetService("ReplicatedStorage").Inventory:FireServer(unpack(args))
+end)
+ 
+GG:AddButton("Give  Item(Sigma face)🖱️",function()
+local args = {
+    [1] = "Change",
+    [2] = "Sigma Face",
+    [3] = "Inv"
+}
+ 
+game:GetService("ReplicatedStorage").Inventory:FireServer(unpack(args))
+end)
+
+CR:AddButton("Discord Link",function()
+setclipboard("https://discord.gg/t6jCH3XC")
+end)
+
+AR:AddButton("Give  Item(Asta)🖱️",function()
+local args = {
+    [1] = "Change",
+    [2] = "Asta",
+    [3] = "Inv"
+}
+ 
+game:GetService("ReplicatedStorage").Inventory:FireServer(unpack(args))
+end)
+
+AR:AddButton("Give  Item(Sukuna)🖱️",function()
+local args = {
+    [1] = "Change",
+    [2] = "Sukuna",
+    [3] = "Inv"
+}
+ 
+game:GetService("ReplicatedStorage").Inventory:FireServer(unpack(args))
+end)
+
+AR:AddButton("Give  Item(Gabimaru)🖱️",function()
+local args = {
+    [1] = "Change",
+    [2] = "Gabimaru",
+    [3] = "Inv"
+}
+ 
+game:GetService("ReplicatedStorage").Inventory:FireServer(unpack(args))
+end)
+
+AR:AddButton("Give  Item(SoulGuitar)🖱️",function()
+local args = {
+    [1] = "Change",
+    [2] = "SoulGuitar",
+    [3] = "Inv"
+}
+ 
+game:GetService("ReplicatedStorage").Inventory:FireServer(unpack(args))
+end)
+
+AR:AddButton("Give  Item(Gear 4)🖱️",function()
+local args = {
+    [1] = "Change",
+    [2] = "Gear 4",
+    [3] = "Inv"
+}
+ 
+game:GetService("ReplicatedStorage").Inventory:FireServer(unpack(args))
+end)
+
+AR:AddButton("Give  Item(Cid)🖱️",function()
+local args = {
+    [1] = "Change",
+    [2] = "Cid",
+    [3] = "Inv"
+}
+ 
+game:GetService("ReplicatedStorage").Inventory:FireServer(unpack(args))
+end)
+
+AR:AddButton("Give  Item(CosmicGarou)🖱️",function()
+local args = {
+    [1] = "Change",
+    [2] = "CosmicGarou",
+    [3] = "Inv"
+}
+ 
+game:GetService("ReplicatedStorage").Inventory:FireServer(unpack(args))
+end)
+
+AR:AddButton("Give  Item(Infinity)🖱️",function()
+local args = {
+    [1] = "Change",
+    [2] = "Infinity",
+    [3] = "Inv"
+}
+ 
+game:GetService("ReplicatedStorage").Inventory:FireServer(unpack(args))
+end)
+
+AR:AddButton("Give  Item(Nobara)🖱️",function()
+local args = {
+    [1] = "Change",
+    [2] = "Nobara",
+    [3] = "Inv"
+}
+ 
+game:GetService("ReplicatedStorage").Inventory:FireServer(unpack(args))
+end)
+
+AR:AddButton("Give  Item(Gear5V2)🖱️",function()
+local args = {
+    [1] = "Change",
+    [2] = "Gear5V2",
+    [3] = "Inv"
+}
+ 
+game:GetService("ReplicatedStorage").Inventory:FireServer(unpack(args))
+end)
+
+AR:AddButton("Give  Item(Gigachad)🖱️",function()
+local args = {
+    [1] = "Change",
+    [2] = "Gigachad",
+    [3] = "Inv"
+}
+ 
+game:GetService("ReplicatedStorage").Inventory:FireServer(unpack(args))
+end)
